@@ -1,38 +1,22 @@
-import React, { useRef } from "react";
 
-// function Ref() {
-//   const inputRef = useRef(null);
+//commentref is key word
 
-//   function handleFocus() {
-//     inputRef.current.focus(); // Focus on the input field
-//   }
+// import React, {useRef} from 'react'
 
-//   return (
-//     <div>
-//       <input ref={inputRef} placeholder="Click the button to focus me" />
-//       <button onClick={handleFocus}>Focus Input</button>
-//     </div>
-//   );
+// const Ref = () => {
+//     const inputRef = useRef(null);
+
+//     const focusInput = () =>{
+//         inputRef.current.focus();
+//     };
+
+//     return(
+
+//         <div>
+//             <input ref={inputRef} />
+//             <button onClick={focusInput}> Focus Button </button>
+//         </div>
+//     );
 // }
 
 // export default Ref;
-
-
-function Ref(){
-   const inputRef = useRef(null);
-
-    function handleFocus(){
-        // inputRef.current.focus();
-        inputRef.current.focus();
-    }
-
-
-    return(
-        <div>
-            <input ref={inputRef} placeholder="click the button"/>
-            <button onClick={handleFocus}>Focus input</button>
-        </div>
-    )
-}
-
-export default Ref;

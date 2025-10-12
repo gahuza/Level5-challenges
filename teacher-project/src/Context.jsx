@@ -66,7 +66,7 @@ const UserContext = createContext();
 
 function Context() {
   return (
-    <UserContext.Provider value="Jean de Dieu">
+    <UserContext.Provider value=" To Jean de Dieu Counting Application">
       <Profile />
     </UserContext.Provider>
   );
