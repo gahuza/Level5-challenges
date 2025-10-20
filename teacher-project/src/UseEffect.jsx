@@ -26,7 +26,7 @@ function Store() {
 
   return (
     <div style={{ padding: "10px" }}>
-      <h3 style={{marginTop:"0px"}}>Teacher E-commerce platform</h3>
+     
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
         {products.map((product) => (
           <div
@@ -45,11 +45,11 @@ function Store() {
             />
             <h3>{product.title}</h3>
             <p>${product.price}</p>
-            {/* <button style={{ backgroundColor: "orange",
+            <button  style={{ backgroundColor: "orange",
     color: "white",
-    padding: "10px 20px",
+    padding: "10px 10px",
     border: "none",
-    borderRadius: "8px",}}>ADD TO Cart</button> */}
+    borderRadius: "5px",}}>Shop Now</button>
           </div>
         ))}
       </div>
